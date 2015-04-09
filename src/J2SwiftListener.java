@@ -368,7 +368,6 @@ public class J2SwiftListener extends Java8BaseListener
     @Override
     public void exitMethodInvocation( Java8Parser.MethodInvocationContext ctx )
     {
-        System.out.println( "method invocation ctx.getText() = " + ctx.getText() );
         // todo: make a map for these
         if ( ctx.getText().startsWith( "System.out.println" ) ) {
             replace( ctx, "println(" + getText( ctx.argumentList() ) + ")" );
