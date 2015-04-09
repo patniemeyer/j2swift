@@ -1,0 +1,1410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c006c13a-1e2a-4096-b87d-a9921a5d3bfb" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MebaSwift/meba/util/Color.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MebaSwift/meba/util/Math.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/abnf/Abnf.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/antlr4/ANTLRv4Lexer.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/antlr4/ANTLRv4Parser.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/asm6502/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/asm6502/asm6502.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/asm6502/examples/bubblesort.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/asm6502/examples/cascade.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/asm6502/examples/combsort.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/asm6502/examples/countdown.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/asm6502/examples/m.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/asm6502/examples/optsort.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/asm6502/examples/perm.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/asm6502/examples/sqrt.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/asm6502/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/basic/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/basic/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/basic/examples/a/data.bas" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/basic/examples/a/dim.bas" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/basic/examples/a/e.bas" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/basic/examples/a/for.bas" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/basic/examples/a/gosub.bas" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/basic/examples/a/goto.bas" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/basic/examples/a/hello.bas" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/basic/examples/a/if.bas" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/basic/examples/a/include.bas" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/basic/examples/a/input.bas" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/basic/examples/a/math.bas" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/basic/examples/a/print.bas" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/basic/examples/a/simpleif.bas" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/basic/examples/a/strings.bas" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/basic/examples/print.bas" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/basic/jvmBasic.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/basic/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/bnf/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/bnf/bnf.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/bnf/examples/algol60.bnf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/bnf/examples/coursecodes.bnf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/bnf/examples/pascal.bnf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/bnf/examples/plm.bnf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/bnf/examples/postal.bnf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/bnf/examples/typedecl.bnf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/bnf/examples/vardecl.bnf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/bnf/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/c/C.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/clojure/Clojure.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/creole/creole.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/creole/examples/bold.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/creole/examples/complete.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/creole/examples/italics.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/creole/examples/linebreaks.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/creole/examples/links.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/creole/examples/recursive.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/creole/examples/titles.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/creole/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/csv/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/csv/CSV.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/csv/examples/example1.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/csv/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/dot/DOT.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/dot/examples/cluster.dot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/dot/examples/crazy.dot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/dot/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/ecmascript/ECMAScript.CSharpTarget.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/ecmascript/ECMAScript.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/ecmascript/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/erlang/Erlang.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/erlang/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/erlang/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/erlang/check.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/fasta/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/fasta/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/fasta/examples/NC_009925.faa" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/fasta/examples/NC_009925.ffn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/fasta/examples/NC_009925.fna" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/fasta/fasta.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/fasta/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/gff3/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/gff3/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/gff3/examples/NC_001633.gff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/gff3/examples/NC_001792.gff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/gff3/gff3.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/gff3/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/html/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/html/HTMLLexer.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/html/HTMLParser.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/html/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/html/examples/html/abc.com.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/html/examples/html/aljazeera.com.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/html/examples/html/amazon.com.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/html/examples/html/antlr.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/html/examples/html/attvalues.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/html/examples/html/bbc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/html/examples/html/cbc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/html/examples/html/cnn1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/html/examples/html/digg.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/html/examples/html/feedly.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/html/examples/html/freebsd.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/html/examples/html/github.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/html/examples/html/gnu.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/html/examples/html/google.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/html/examples/html/html4.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/html/examples/html/metafilter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/html/examples/html/nbc.com.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/html/examples/html/reddit.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/html/examples/html/reddit2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/html/examples/html/script1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/html/examples/html/slashdot.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/html/examples/html/style1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/html/examples/html/uglylink.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/html/examples/html/wikipedia.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/html/examples/html/yahoo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/html/examples/html/youtube.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/html/known_validation_issues.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/html/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/icalendar/ICalendar.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/idl/IDL.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/iri/IRI.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/java/Java.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/java/Test.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/java/contributors.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/java8/Java8.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/json/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/json/JSON.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/json/examples/example1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/json/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/less/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/less/LessLexer.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/less/LessParser.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/less/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/less/src/test/java/TestBase.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/less/src/test/java/TestBasicCss.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/less/src/test/java/TestImports.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/less/src/test/java/TestMixins.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/logo/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/logo/examples/example1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/logo/examples/example2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/logo/examples/example3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/logo/examples/example4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/logo/examples/expression.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/logo/examples/flower.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/logo/examples/fractal.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/logo/examples/logo_fail_1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/logo/examples/logo_fail_2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/logo/examples/logo_feature_butfail.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/logo/examples/logo_feature_butfail_2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/logo/examples/make.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/logo/examples/octagon.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/logo/examples/procedure1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/logo/examples/procedure2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/logo/examples/random.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/logo/examples/recursive1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/logo/examples/repeat.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/logo/examples/spiral.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/logo/examples/spiral2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/logo/examples/tree.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/logo/examples/tree2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/logo/logo.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/logo/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/lua/Lua.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/mysql/MySQL.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/mysql/MySQLBase.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/mysql/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/objc/ObjC.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/objc/examples/BoxPhoto.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/objc/examples/BoxPhoto.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/objc/examples/FSBaseViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/objc/examples/FSBaseViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/objc/examples/NetworkRequest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/objc/examples/NetworkRequest.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/objc/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/pcre/PCRE.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/pgn/PGN.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/pgn/examples/Adams - OK.pgn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/pgn/examples/Alekhine.pgn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/pgn/examples/Anand - OK.pgn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/pgn/examples/Ivanchuk.pgn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/pgn/examples/Karpov.pgn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/pgn/examples/Kasparov - OK 2.pgn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/pgn/examples/Kasparov - OK 3.pgn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/pgn/examples/Kasparov - OK.pgn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/pgn/examples/Kosteniuk.pgn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/pgn/examples/Morozevich.pgn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/pgn/examples/Shirov - OK.pgn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/pgn/examples/Topalov.pgn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/pgn/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/python3/Python3.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/python3/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/r/R.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/r/RFilter.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/r/TestR.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/redcode/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/redcode/examples/bigfoot.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/redcode/examples/dwarf.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/redcode/examples/gemini.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/redcode/examples/imp.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/redcode/examples/mortar.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/redcode/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/redcode/redcode.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/scala/scala.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/scss/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/scss/ScssLexer.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/scss/ScssParser.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/scss/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/scss/src/test/java/TestBase.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/scss/src/test/java/TestBasicCss.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/scss/src/test/java/TestConditionals.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/scss/src/test/java/TestFunctions.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/scss/src/test/java/TestImports.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/scss/src/test/java/TestInclude.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/scss/src/test/java/TestMixins.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/smalltalk/Smalltalk.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/sqlite/SQLite.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/support/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/support/antlr4test-maven-plugin/AntlrMojo-pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/support/antlr4test-maven-plugin/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/support/antlr4test-maven-plugin/generate-sources.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/support/antlr4test-maven-plugin/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/support/antlr4test-maven-plugin/src/main/java/org/antlr/mojo/antlr4test/FileUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/support/antlr4test-maven-plugin/src/main/java/org/antlr/mojo/antlr4test/GrammarTestMojo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/support/antlr4test-maven-plugin/src/test/java/test/org/antlr/mojo/antlr4test/TestGrammarTestMojo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/support/antlr4test-maven-plugin/src/test/resources/GrammarTestMojo-pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/support/antlr4test-maven-plugin/src/test/resources/examples/aprimeprimeequalsfive.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/support/antlr4test-maven-plugin/src/test/resources/examples/commutative.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/support/antlr4test-maven-plugin/src/test/resources/examples/example1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/support/antlr4test-maven-plugin/src/test/resources/examples/example2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/support/antlr4test-maven-plugin/src/test/resources/examples/example3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/support/antlr4test-maven-plugin/src/test/resources/examples/example4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/support/antlr4test-maven-plugin/src/test/resources/examples/onenotequaltotwo.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/support/antlr4test-maven-plugin/src/test/resources/examples/primes.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/support/antlr4test-maven-plugin/src/test/resources/examples/twoplusthreeisfive.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/support/antlr4test-maven-plugin/src/test/resources/examples/twoplustwoisnotfive.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/support/antlr4test-maven-plugin/src/test/resources/examples/zeronotsuccessor.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/support/antlr4test-maven-plugin/src/test/resources/tnt.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/support/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/swift/NOTES.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/swift/Swift.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/swift/examples/AppDelegate.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/swift/examples/GameScene.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/swift/examples/GameViewController.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/swift/examples/Snippet.swift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/swift/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/tnsnames/README.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/tnsnames/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/tnsnames/examples/README.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/tnsnames/examples/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/tnsnames/examples/tnsnames.test.ora" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/tnsnames/examples/tnsnames_checker.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/tnsnames/tnsnames.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/tnt/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/tnt/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/tnt/examples/aprimeprimeequalsfive.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/tnt/examples/commutative.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/tnt/examples/example1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/tnt/examples/example2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/tnt/examples/example3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/tnt/examples/example4.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/tnt/examples/onenotequaltotwo.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/tnt/examples/primes.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/tnt/examples/twoplusthreeisfive.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/tnt/examples/twoplustwoisnotfive.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/tnt/examples/zeronotsuccessor.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/tnt/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/tnt/tnt.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/turtle/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/turtle/TURTLE.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/turtle/examples/Vehicle.ttl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/turtle/examples/schema.org.ttl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/turtle/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/ucb-logo/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/ucb-logo/UCBLogo.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/vb6/VisualBasic6.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/verilog/Verilog2001.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/vhdl/examples/arith.vhd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/vhdl/examples/misc.vhd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/vhdl/examples/numeric_bit-body.vhd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/vhdl/examples/numeric_bit.vhd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/vhdl/examples/numeric_std-body.vhd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/vhdl/examples/numeric_std.vhd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/vhdl/examples/signed.vhd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/vhdl/examples/standard.vhd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/vhdl/examples/std_logic_1164.vhd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/vhdl/examples/std_logic_1164_body.vhd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/vhdl/examples/std_logic_textio.vhd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/vhdl/examples/textio.vhd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/vhdl/examples/unsigned.vhd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/vhdl/vhdl.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/webidl/WebIDL.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/xml/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/xml/XMLLexer.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/xml/XMLParser.g4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/xml/examples/books.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/xml/examples/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammars-v4/xml/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/Vector.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/Vector.swift" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../MebaSwift/meba/util/SwiftUtil.swift" afterPath="$PROJECT_DIR$/../MebaSwift/meba/util/SwiftJavaUtil.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/J2Swift.java" afterPath="$PROJECT_DIR$/src/J2Swift.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/J2SwiftListener.java" afterPath="$PROJECT_DIR$/src/J2SwiftListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Java8.g4" afterPath="$PROJECT_DIR$/src/Java8.g4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MebaSwiftTests/MebaSwiftTests.swift" afterPath="$PROJECT_DIR$/../MebaSwiftTests/MebaSwiftTests.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/Test.java" afterPath="$PROJECT_DIR$/test/Test.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MebaSwift/meba/util/TestSwift.swift" afterPath="$PROJECT_DIR$/../MebaSwift/meba/util/TestSwift.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MebaSwift/meba/util/Vector.swift" afterPath="$PROJECT_DIR$/../MebaSwift/meba/util/Vector.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MebaSwift.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/../MebaSwift.xcodeproj/project.pbxproj" />
+    </list>
+    <ignored path="antlr.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="antlr" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="J2SwiftListener.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/J2SwiftListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10836">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="56" max-vertical-offset="1512">
+              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+              <folding>
+                <element signature="e#1128#1129#0" expanded="false" />
+                <element signature="e#1156#1157#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="J2Swift.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/J2Swift.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1036">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Java8.g4" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Java8.g4">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="48048" max-vertical-offset="49504">
+              <caret line="1761" column="4" selection-start-line="1761" selection-start-column="4" selection-end-line="1761" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Java8.tokens" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Java8.tokens">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5908">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.swift" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/Test.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1624">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/java8/Java8.g4" />
+        <option value="$PROJECT_DIR$/java8/ExtractInterfaceListener.java" />
+        <option value="$PROJECT_DIR$/java8/ExtractInterfaceTool.java" />
+        <option value="$PROJECT_DIR$/java8/J2Swift.java" />
+        <option value="$PROJECT_DIR$/java8/J2SwiftListener.java" />
+        <option value="$PROJECT_DIR$/Test.javatext" />
+        <option value="$PROJECT_DIR$/src/J2SwiftListener2.java" />
+        <option value="$PROJECT_DIR$/test/Test.java" />
+        <option value="$PROJECT_DIR$/src/J2Swift.java" />
+        <option value="$PROJECT_DIR$/src/J2SwiftListener.java" />
+        <option value="$PROJECT_DIR$/src/Java8.g4" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="620" />
+    <option name="y" value="23" />
+    <option name="width" value="1825" />
+    <option name="height" value="1412" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="antlr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="antlr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2swift" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="antlr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2swift" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="antlr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2swift" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="antlr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2swift" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="FullScreen" value="false" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="extract.method.default.visibility" value="private" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings />
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Test.java">
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Test.java" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="J2Swift" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="Test.java" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/test/" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="antlr" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Vector.java" type="Application" factoryName="Application">
+      <output_file path="$PROJECT_DIR$/test/Vector.swift" is_save="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="J2Swift" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="Vector.java" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/test/" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="antlr" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.Test.java" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Vector.java" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c006c13a-1e2a-4096-b87d-a9921a5d3bfb" name="Default" comment="" />
+      <created>1427952593138</created>
+      <option name="number" value="Default" />
+      <updated>1427952593138</updated>
+      <workItem from="1427952599895" duration="11000" />
+      <workItem from="1427952667433" duration="253000" />
+      <workItem from="1427952943055" duration="25239000" />
+      <workItem from="1428172927126" duration="2325000" />
+      <workItem from="1428202809517" duration="3796000" />
+      <workItem from="1428251057469" duration="28801000" />
+      <workItem from="1428378005839" duration="30000" />
+      <workItem from="1428378115116" duration="1585000" />
+      <workItem from="1428425342199" duration="2000" />
+      <workItem from="1428425380878" duration="110000" />
+      <workItem from="1428426839804" duration="198000" />
+      <workItem from="1428428216966" duration="4323000" />
+      <workItem from="1428455816327" duration="278000" />
+      <workItem from="1428521577025" duration="1072000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="68023000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="620" y="23" width="1825" height="1412" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909605" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32931423" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15726027" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6350746" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3995519" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32860345" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3278566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Java8.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="14616" max-vertical-offset="48496">
+          <caret line="522" column="27" selection-start-line="522" selection-start-column="27" selection-end-line="522" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java8.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5610" max-vertical-offset="38104">
+          <caret line="255" column="9" selection-start-line="255" selection-start-column="9" selection-end-line="255" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/J2SwiftListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5732" max-vertical-offset="7502">
+          <caret line="287" column="50" selection-start-line="287" selection-start-column="50" selection-end-line="287" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1188">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1128#1129#0" expanded="false" />
+            <element signature="e#1156#1157#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java8.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5610" max-vertical-offset="38104">
+          <caret line="255" column="9" selection-start-line="255" selection-start-column="9" selection-end-line="255" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/J2SwiftListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5732" max-vertical-offset="7502">
+          <caret line="287" column="50" selection-start-line="287" selection-start-column="50" selection-end-line="287" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1188">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1128#1129#0" expanded="false" />
+            <element signature="e#1156#1157#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java8.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5610" max-vertical-offset="38104">
+          <caret line="255" column="9" selection-start-line="255" selection-start-column="9" selection-end-line="255" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.5-complete.jar!/org/antlr/v4/runtime/ParserRuleContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4466">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.5-complete.jar!/org/antlr/v4/runtime/tree/TerminalNode.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="330">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java8BaseListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="23826" max-vertical-offset="63470">
+          <caret line="1086" column="26" selection-start-line="1086" selection-start-column="26" selection-end-line="1086" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.5-complete.jar!/org/antlr/v4/runtime/TokenStreamRewriter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1540" max-vertical-offset="7964">
+          <caret line="102" column="16" selection-start-line="102" selection-start-column="16" selection-end-line="102" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.5-complete.jar!/org/antlr/v4/runtime/misc/Interval.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="2002">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="308" max-vertical-offset="1100">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="e#1128#1129#0" expanded="false" />
+            <element signature="e#1156#1157#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java8.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="10098" max-vertical-offset="38104">
+          <caret line="459" column="0" selection-start-line="459" selection-start-column="0" selection-end-line="459" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/J2SwiftListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7106">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.5-complete.jar!/org/antlr/v4/runtime/ParserRuleContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3410" max-vertical-offset="4466">
+          <caret line="176" column="49" selection-start-line="176" selection-start-column="49" selection-end-line="176" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.5-complete.jar!/org/antlr/v4/runtime/tree/TerminalNode.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="330">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java8BaseListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="23826" max-vertical-offset="63470">
+          <caret line="1086" column="26" selection-start-line="1086" selection-start-column="26" selection-end-line="1086" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.5-complete.jar!/org/antlr/v4/runtime/TokenStreamRewriter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1540" max-vertical-offset="7964">
+          <caret line="102" column="16" selection-start-line="102" selection-start-column="16" selection-end-line="102" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.5-complete.jar!/org/antlr/v4/runtime/misc/Interval.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="2002">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="308" max-vertical-offset="1100">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="e#1128#1129#0" expanded="false" />
+            <element signature="e#1156#1157#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java8.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="10098" max-vertical-offset="38104">
+          <caret line="459" column="0" selection-start-line="459" selection-start-column="0" selection-end-line="459" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/J2SwiftListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4368" max-vertical-offset="8540">
+          <caret line="188" column="4" selection-start-line="188" selection-start-column="4" selection-end-line="188" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="196" max-vertical-offset="672">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <folding>
+            <element signature="e#1128#1129#0" expanded="false" />
+            <element signature="e#1156#1157#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java8.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/J2SwiftListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3775" max-vertical-offset="7924">
+          <caret line="161" column="0" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java8.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.5-complete.jar!/org/antlr/v4/runtime/tree/TerminalNode.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.5-complete.jar!/org/antlr/v4/runtime/CommonTokenStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.76" vertical-offset="0" max-vertical-offset="1872">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.5-complete.jar!/org/antlr/v4/runtime/IntStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.68" vertical-offset="0" max-vertical-offset="720">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.5-complete.jar!/org/antlr/v4/runtime/tree/ParseTree.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.48" vertical-offset="0" max-vertical-offset="552">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.5-complete.jar!/org/antlr/v4/runtime/Parser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.04" vertical-offset="4262" max-vertical-offset="13152">
+          <caret line="247" column="20" selection-start-line="247" selection-start-column="20" selection-end-line="247" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.5-complete.jar!/org/antlr/v4/runtime/TokenStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.32" vertical-offset="0" max-vertical-offset="648">
+          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.5-complete.jar!/org/antlr/runtime/BufferedTokenStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.746565" vertical-offset="5729" max-vertical-offset="6384">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.5-complete.jar!/org/antlr/runtime/CommonTokenStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.10992366" vertical-offset="72" max-vertical-offset="3432">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.5-complete.jar!/org/antlr/runtime/TokenRewriteStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.72" vertical-offset="0" max-vertical-offset="11340">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.5-complete.jar!/org/antlr/v4/runtime/RuleContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.52" vertical-offset="748" max-vertical-offset="3976">
+          <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java8Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="96211" max-vertical-offset="481880">
+          <caret line="3723" column="8" selection-start-line="3723" selection-start-column="8" selection-end-line="3723" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.5-complete.jar!/org/antlr/v4/runtime/BufferedTokenStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.52" vertical-offset="2316" max-vertical-offset="9884">
+          <caret line="115" column="17" selection-start-line="115" selection-start-column="17" selection-end-line="115" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.5-complete.jar!/org/antlr/v4/runtime/ParserRuleContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33587787" vertical-offset="3410" max-vertical-offset="4466">
+          <caret line="186" column="41" selection-start-line="186" selection-start-column="41" selection-end-line="186" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.5-complete.jar!/org/antlr/v4/runtime/tree/TerminalNode.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20152672" vertical-offset="0" max-vertical-offset="655">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java8BaseListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="30036" max-vertical-offset="80780">
+          <caret line="1086" column="26" selection-start-line="1086" selection-start-column="26" selection-end-line="1086" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.5-complete.jar!/org/antlr/v4/runtime/TokenStreamRewriter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1540" max-vertical-offset="7964">
+          <caret line="102" column="16" selection-start-line="102" selection-start-column="16" selection-end-line="102" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.5-complete.jar!/org/antlr/v4/runtime/misc/Interval.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="2002">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="56" max-vertical-offset="1512">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding>
+            <element signature="e#1128#1129#0" expanded="false" />
+            <element signature="e#1156#1157#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/J2Swift.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1036">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/J2SwiftListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10836">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java8.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="48048" max-vertical-offset="49504">
+          <caret line="1761" column="4" selection-start-line="1761" selection-start-column="4" selection-end-line="1761" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java8.tokens">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5908">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Test.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1624">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>antlr</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>antlr-4.5-complete</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
