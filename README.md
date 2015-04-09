@@ -25,7 +25,6 @@ A few things it does
 A few things it could do in the future
 --------------------------------------
 
-- For and While Loops
 - Final vars should become "let" vars.
 - Method and fields with the same name should be disambiguated.
 - Static method invocations should be qualified.
