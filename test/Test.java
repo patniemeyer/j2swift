@@ -21,7 +21,9 @@ public class Test extends Object
     // Constructor with two args
     public Test( int a, Object b ) {  }
 
-    protected void run() {
+    protected void run()
+    {
+        // this is the run body
         int a = 42; // local var
         this.a = b; // this reference
         new Test(); // naked new instance creation
@@ -30,7 +32,15 @@ public class Test extends Object
         float foo = (float)42.0;
         float [] floatArray;
         Object [] objArray;
-        // this is the run body
+
+        for( int i=0; i< 42; i++ ) { System.out.println("foo"); }
+        for( int i=0; i< 42; i++ ) System.out.println("foo"); // missing braces
+        int i = 42;
+        while( i > 0 ) {
+            System.out.println(i--);
+        }
+        List<Object> objectList;
+        for( Object obj : objectList ) { println(obj); }
     }
 
     static float test( int a, Object b ) // static func two args

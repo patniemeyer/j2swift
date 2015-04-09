@@ -14,10 +14,12 @@ A few things it does
 - Rewrites constructors and constructor invocations, including attempting to note convenience intializers 
 - Rewrites simple array types
 - Rewrites 'this' references as 'self'
+- Rewrites for, enhanced for, and while loops
 - Maps float, int, long and boolean types
 - Maps null to nil
 - Comments out throws statements and replaces them with a placeholder method invocation throwException()
 - Maps interface to protocol
+- Maps System.out.println() to println()
 
 
 A few things it could do in the future

@@ -341,12 +341,70 @@ public class J2SwiftListener extends Java8BaseListener
         rewriter.replace( intfTokens.get( 0 ).getSymbol().getTokenIndex(), "protocol" );
     }
 
+    @Override
+    public void exitBasicForStatement( Java8Parser.BasicForStatementContext ctx )
+    {
+        //:	'for' '(' forInit? ';' expression? ';' forUpdate? ')' statement
+        deleteFirst( ctx, Java8Lexer.RPAREN );
+        deleteFirst( ctx, Java8Lexer.LPAREN );
+        if ( !ctx.statement().start.getText().equals( "{" ) ) {
+            rewriter.insertBefore( ctx.statement().start, "{ " );
+            rewriter.insertAfter( ctx.statement().stop, " }" );
+        }
+    }
+
+    @Override
+    public void exitWhileStatement( Java8Parser.WhileStatementContext ctx )
+    {
+        //:	'while' '(' expression ')' statement
+        deleteFirst( ctx, Java8Lexer.RPAREN );
+        deleteFirst( ctx, Java8Lexer.LPAREN );
+        if ( !ctx.statement().start.getText().equals( "{" ) ) {
+            rewriter.insertBefore( ctx.statement().start, "{ " );
+            rewriter.insertAfter( ctx.statement().stop, " }" );
+        }
+    }
+
+    @Override
+    public void exitMethodInvocation( Java8Parser.MethodInvocationContext ctx )
+    {
+        System.out.println( "method invocation ctx.getText() = " + ctx.getText() );
+        // todo: make a map for these
+        if ( ctx.getText().startsWith( "System.out.println" ) ) {
+            replace( ctx, "println(" + getText( ctx.argumentList() ) + ")" );
+        }
+    }
+
+    @Override
+    public void exitEnhancedForStatement( Java8Parser.EnhancedForStatementContext ctx )
+    {
+        //:	'for' '(' variableModifier* unannType variableDeclaratorId ':' expression ')' statement
+        if ( !ctx.statement().start.getText().equals( "{" ) ) {
+            rewriter.insertBefore( ctx.statement().start, "{ " );
+            rewriter.insertAfter( ctx.statement().stop, " }" );
+        }
+        String st = getText( ctx.statement() );
+
+        String out = "for "+getText(ctx.variableDeclaratorId())+" : "+getText( ctx.unannType() )
+                +" in "+getText( ctx.expression() ) + " " +st;
+
+        replace( ctx, out );
+
+    }
+
     //
     // util
     //
 
+    private void deleteFirst( ParserRuleContext ctx, int token ) {
+        List<TerminalNode> tokens = ctx.getTokens( token );
+        rewriter.delete( tokens.get(0).getSymbol().getTokenIndex() );
+    }
+
+
     // Get possibly rewritten text
     private String getText( ParserRuleContext ctx ) {
+        if ( ctx == null ) { return ""; }
         return rewriter.getText( new Interval( ctx.start.getTokenIndex(), ctx.stop.getTokenIndex() ) );
     }
 
