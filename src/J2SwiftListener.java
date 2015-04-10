@@ -40,6 +40,7 @@ public class J2SwiftListener extends Java8BaseListener
         typeMap.put("Boolean", "Bool");
         typeMap.put("Map", "Dictionary");
         typeMap.put("HashSet", "Set");
+        typeMap.put("HashMap", "Dictionary");
         typeMap.put("List", "Array");
     }
 
@@ -209,12 +210,13 @@ public class J2SwiftListener extends Java8BaseListener
 
 
     @Override
-    public void enterClassInstanceCreationExpression( Java8Parser.ClassInstanceCreationExpressionContext ctx )
+    public void exitClassInstanceCreationExpression( Java8Parser.ClassInstanceCreationExpressionContext ctx )
     {
         //:	'new' typeArguments? annotation* Identifier ('.' annotation* Identifier)* typeArgumentsOrDiamond? '(' argumentList? ')' classBody?
         //|	expressionName '.' 'new' typeArguments? annotation* Identifier typeArgumentsOrDiamond? '(' argumentList? ')' classBody?
         //|	primary '.' 'new' typeArguments? annotation* Identifier typeArgumentsOrDiamond? '(' argumentList? ')' classBody?
         if ( ctx.start.getText().equals( "new" ) ) {
+            replaceFirst( ctx, Java8Lexer.Identifier, mapType(ctx.Identifier().get(0).getText()) );
             rewriter.delete( ctx.start );
             rewriter.delete( ctx.start.getTokenIndex() + 1 ); // space
         }
@@ -226,6 +228,7 @@ public class J2SwiftListener extends Java8BaseListener
         //:	'new' typeArguments? annotation* Identifier ('.' annotation* Identifier)* typeArgumentsOrDiamond? '(' argumentList? ')' classBody?
         //|	expressionName '.' 'new' typeArguments? annotation* Identifier typeArgumentsOrDiamond? '(' argumentList? ')' classBody?
         if ( ctx.start.getText().equals( "new" ) ) {
+            replaceFirst( ctx, Java8Lexer.Identifier, mapType(ctx.Identifier().get(0).getText()) );
             rewriter.delete( ctx.start );
             rewriter.delete( ctx.start.getTokenIndex() + 1 ); // space
         }
