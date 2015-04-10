@@ -254,11 +254,14 @@ public class J2SwiftListener extends Java8BaseListener
     public void exitUnannType( Java8Parser.UnannTypeContext ctx )
     {
         // mapping may already have been done by more specific rule but this shouldn't hurt it
-        replace( ctx, mapType( getText( ctx ) ) );
+        // todo: this needs to be more specific, preventing rewrites on generic type args
+        //if ( !ctx.getText().contains( "<" ) && !ctx.getText().contains( "[" )) {
+            replace( ctx, mapType( getText( ctx ) ) );
+        //}
     }
 
     @Override
-    public void enterArrayType( Java8Parser.ArrayTypeContext ctx ) {
+    public void exitArrayType( Java8Parser.ArrayTypeContext ctx ) {
         //:	primitiveType dims
         //|	classOrInterfaceType dims
         //|	typeVariable dims
@@ -274,7 +277,7 @@ public class J2SwiftListener extends Java8BaseListener
     }
 
     @Override
-    public void enterUnannArrayType( Java8Parser.UnannArrayTypeContext ctx ) {
+    public void exitUnannArrayType( Java8Parser.UnannArrayTypeContext ctx ) {
         //:	unannPrimitiveType dims
         //|	unannClassOrInterfaceType dims
         //|	unannTypeVariable dims
@@ -392,6 +395,14 @@ public class J2SwiftListener extends Java8BaseListener
 
         replace( ctx, out );
 
+    }
+
+    @Override
+    public void exitUnannClassType_lfno_unannClassOrInterfaceType( Java8Parser.UnannClassType_lfno_unannClassOrInterfaceTypeContext ctx )
+    {
+        //unannClassType_lfno_unannClassOrInterfaceType
+        //:	Identifier typeArguments?
+        replaceFirst( ctx, ctx.Identifier().getSymbol().getType(), mapType( ctx.Identifier().getText() ) );
     }
 
     //
