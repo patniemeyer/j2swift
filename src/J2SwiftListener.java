@@ -42,6 +42,7 @@ public class J2SwiftListener extends Java8BaseListener
         typeMap.put("HashSet", "Set");
         typeMap.put("HashMap", "Dictionary");
         typeMap.put("List", "Array");
+        typeMap.put("ArrayList", "Array");
     }
 
     // Some basic modifier mappings (others in context)
@@ -355,7 +356,7 @@ public class J2SwiftListener extends Java8BaseListener
     {
         //:	'for' '(' forInit? ';' expression? ';' forUpdate? ')' statement
         deleteFirst( ctx, Java8Lexer.RPAREN );
-        deleteFirst( ctx, Java8Lexer.LPAREN );
+        replaceFirst( ctx, Java8Lexer.LPAREN, " " ); // todo: should check spacing here
         if ( !ctx.statement().start.getText().equals( "{" ) ) {
             rewriter.insertBefore( ctx.statement().start, "{ " );
             rewriter.insertAfter( ctx.statement().stop, " }" );
