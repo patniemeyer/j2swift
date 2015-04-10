@@ -33,9 +33,10 @@ public class Test extends Object
         float [] floatArray;
         Object [] objArray;
         Map<String,String> stringMap = new HashMap<String,String>();
+        List<String> stringList = new ArrayList<>();
 
         for( int i=0; i< 42; i++ ) { System.out.println("foo"); }
-        for( int i=0; i< 42; i++ ) System.out.println("foo"); // missing braces
+        for(int i=0; i< 42; i++) System.out.println("foo"); // missing braces
         int i = 42;
         while( i > 0 ) {
             System.out.println(i--);
