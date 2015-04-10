@@ -32,6 +32,7 @@ public class Test extends Object
         float foo = (float)42.0;
         float [] floatArray;
         Object [] objArray;
+        Map<String,String> stringMap = new HashMap<String,String>();
 
         for( int i=0; i< 42; i++ ) { System.out.println("foo"); }
         for( int i=0; i< 42; i++ ) System.out.println("foo"); // missing braces
