@@ -401,7 +401,7 @@ public class J2SwiftListener extends Java8BaseListener
         //    |	typeVariable
         //    |	arrayType
         //rewriter.replace( ctx.Identifier().getSymbol(), mapType( ctx.Identifier().getText() ) );
-        System.out.println( "ref type ctx = " + ctx.getText() );
+        //System.out.println( "ref type ctx = " + ctx.getText() );
     }
 
     //
