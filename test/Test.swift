@@ -3,7 +3,7 @@
 // import foo.bar.Blah;
 
 /** Class comment */
-public class Test  : Object
+public class Test  :  Object
 {
     public static var lock : Object = nil; // static, null -> Swift 1.2 static class variable, nil
     public var x : Int = 5;
@@ -21,7 +21,9 @@ public class Test  : Object
     // Constructor with two args
     public init( _ a : Int, _ b : Object ) {  }
 
-    internal func run() {
+    internal func run()
+    {
+        // this is the run body
         var a : Int = 42; // local var
         self.a = b; // this reference
         Test(); // naked new instance creation
@@ -30,7 +32,16 @@ public class Test  : Object
         var foo : Float = (Float)42.0;
         var floatArray : [Float];
         var objArray : [Object];
-        // this is the run body
+        var stringMap : Dictionary<String,String> = Dictionary<String,String>();
+
+        for  var i : Int=0; i< 42; i++  { println("foo"); }
+        for var i : Int=0; i< 42; i++ { println("foo"); } // missing braces
+        var i : Int = 42;
+        while i > 0  {
+            println(i--);
+        }
+        var objectList : Array<Object>;
+        for obj : Object in objectList { println(obj); }
     }
 
     class func test( a : Int, _ b : Object ) -> Float // static func two args
@@ -43,7 +54,7 @@ public class Test  : Object
     }
 }
 
-class Foo  : Bar,Gee { }
+class Foo  :  Bar, Gee { }
 
 public protocol MyInterface {
     func run();
