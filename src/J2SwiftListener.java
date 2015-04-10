@@ -38,6 +38,9 @@ public class J2SwiftListener extends Java8BaseListener
         typeMap.put("Long", "Int");
         typeMap.put("boolean", "Bool");
         typeMap.put("Boolean", "Bool");
+        typeMap.put("Map", "Dictionary");
+        typeMap.put("HashSet", "Set");
+        typeMap.put("List", "Array");
     }
 
     // Some basic modifier mappings (others in context)
@@ -310,14 +313,14 @@ public class J2SwiftListener extends Java8BaseListener
     public void enterSuperclass( Java8Parser.SuperclassContext ctx )
     {
         //:	'extends' classType
-        replace( ctx, " : "+ctx.classType().getText() );
+        replaceFirst( ctx, Java8Lexer.EXTENDS, " : " );
     }
 
     @Override
     public void enterSuperinterfaces( Java8Parser.SuperinterfacesContext ctx )
     {
         //:	'implements' interfaceTypeList
-        replace( ctx, " : "+ctx.interfaceTypeList().getText() );
+        replaceFirst( ctx, Java8Lexer.IMPLEMENTS, " : " );
     }
 
     @Override
@@ -391,19 +394,16 @@ public class J2SwiftListener extends Java8BaseListener
 
     }
 
-    @Override
-    public void exitUnannClassType_lfno_unannClassOrInterfaceType( Java8Parser.UnannClassType_lfno_unannClassOrInterfaceTypeContext ctx )
-    {
-        //:	Identifier typeArguments?
-
-    }
     //
     // util
     //
-
     private void deleteFirst( ParserRuleContext ctx, int token ) {
         List<TerminalNode> tokens = ctx.getTokens( token );
         rewriter.delete( tokens.get(0).getSymbol().getTokenIndex() );
+    }
+    private void replaceFirst( ParserRuleContext ctx, int token, String str ) {
+        List<TerminalNode> tokens = ctx.getTokens( token );
+        rewriter.replace( tokens.get( 0 ).getSymbol().getTokenIndex(), str );
     }
 
 
