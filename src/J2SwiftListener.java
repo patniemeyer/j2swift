@@ -391,6 +391,12 @@ public class J2SwiftListener extends Java8BaseListener
 
     }
 
+    @Override
+    public void exitUnannClassType_lfno_unannClassOrInterfaceType( Java8Parser.UnannClassType_lfno_unannClassOrInterfaceTypeContext ctx )
+    {
+        //:	Identifier typeArguments?
+
+    }
     //
     // util
     //
