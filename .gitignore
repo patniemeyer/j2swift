@@ -2,3 +2,7 @@ out
 workspace.xml
 .DS_Store
 lib
+codeStyleSettings.xml
+pullfromdesk.sh
+test/a
+misc.xml

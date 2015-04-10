@@ -40,6 +40,7 @@ public class J2SwiftListener extends Java8BaseListener
         typeMap.put("Boolean", "Bool");
         typeMap.put("Map", "Dictionary");
         typeMap.put("HashSet", "Set");
+        typeMap.put("HashMap", "Dictionary");
         typeMap.put("List", "Array");
     }
 
@@ -209,12 +210,13 @@ public class J2SwiftListener extends Java8BaseListener
 
 
     @Override
-    public void enterClassInstanceCreationExpression( Java8Parser.ClassInstanceCreationExpressionContext ctx )
+    public void exitClassInstanceCreationExpression( Java8Parser.ClassInstanceCreationExpressionContext ctx )
     {
         //:	'new' typeArguments? annotation* Identifier ('.' annotation* Identifier)* typeArgumentsOrDiamond? '(' argumentList? ')' classBody?
         //|	expressionName '.' 'new' typeArguments? annotation* Identifier typeArgumentsOrDiamond? '(' argumentList? ')' classBody?
         //|	primary '.' 'new' typeArguments? annotation* Identifier typeArgumentsOrDiamond? '(' argumentList? ')' classBody?
         if ( ctx.start.getText().equals( "new" ) ) {
+            replaceFirst( ctx, Java8Lexer.Identifier, mapType(ctx.Identifier().get(0).getText()) );
             rewriter.delete( ctx.start );
             rewriter.delete( ctx.start.getTokenIndex() + 1 ); // space
         }
@@ -226,6 +228,7 @@ public class J2SwiftListener extends Java8BaseListener
         //:	'new' typeArguments? annotation* Identifier ('.' annotation* Identifier)* typeArgumentsOrDiamond? '(' argumentList? ')' classBody?
         //|	expressionName '.' 'new' typeArguments? annotation* Identifier typeArgumentsOrDiamond? '(' argumentList? ')' classBody?
         if ( ctx.start.getText().equals( "new" ) ) {
+            replaceFirst( ctx, Java8Lexer.Identifier, mapType(ctx.Identifier().get(0).getText()) );
             rewriter.delete( ctx.start );
             rewriter.delete( ctx.start.getTokenIndex() + 1 ); // space
         }
@@ -254,11 +257,14 @@ public class J2SwiftListener extends Java8BaseListener
     public void exitUnannType( Java8Parser.UnannTypeContext ctx )
     {
         // mapping may already have been done by more specific rule but this shouldn't hurt it
-        replace( ctx, mapType( getText( ctx ) ) );
+        // todo: this needs to be more specific, preventing rewrites on generic type args
+        //if ( !ctx.getText().contains( "<" ) && !ctx.getText().contains( "[" )) {
+            replace( ctx, mapType( getText( ctx ) ) );
+        //}
     }
 
     @Override
-    public void enterArrayType( Java8Parser.ArrayTypeContext ctx ) {
+    public void exitArrayType( Java8Parser.ArrayTypeContext ctx ) {
         //:	primitiveType dims
         //|	classOrInterfaceType dims
         //|	typeVariable dims
@@ -274,7 +280,7 @@ public class J2SwiftListener extends Java8BaseListener
     }
 
     @Override
-    public void enterUnannArrayType( Java8Parser.UnannArrayTypeContext ctx ) {
+    public void exitUnannArrayType( Java8Parser.UnannArrayTypeContext ctx ) {
         //:	unannPrimitiveType dims
         //|	unannClassOrInterfaceType dims
         //|	unannTypeVariable dims
@@ -395,19 +401,16 @@ public class J2SwiftListener extends Java8BaseListener
     }
 
     @Override
-    public void exitReferenceType( Java8Parser.ReferenceTypeContext ctx )
+    public void exitUnannClassType_lfno_unannClassOrInterfaceType( Java8Parser.UnannClassType_lfno_unannClassOrInterfaceTypeContext ctx )
     {
-        //:	classOrInterfaceType
-        //    |	typeVariable
-        //    |	arrayType
-        //rewriter.replace( ctx.Identifier().getSymbol(), mapType( ctx.Identifier().getText() ) );
-        //System.out.println( "ref type ctx = " + ctx.getText() );
+        //unannClassType_lfno_unannClassOrInterfaceType
+        //:	Identifier typeArguments?
+        replaceFirst( ctx, ctx.Identifier().getSymbol().getType(), mapType( ctx.Identifier().getText() ) );
     }
 
     //
     // util
     //
-
     private void deleteFirst( ParserRuleContext ctx, int token ) {
         List<TerminalNode> tokens = ctx.getTokens( token );
         rewriter.delete( tokens.get(0).getSymbol().getTokenIndex() );
