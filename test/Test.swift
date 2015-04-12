@@ -11,6 +11,7 @@ public class Test  :  Object
     public var a : Int = 1, b : Int = 2;
     var floatArray : [Float];
     var objArray : [Object];
+    /*volatile*/ var testVolatile : Int;
 
     // Constructor (to convenience constructor)
     public convenience init() {
@@ -33,6 +34,7 @@ public class Test  :  Object
         var floatArray : [Float];
         var objArray : [Object];
         var stringMap : Dictionary<String,String> = Dictionary<String,String>();
+        var stringList : Array<String> = Array<>();
 
         for  var i : Int=0; i< 42; i++  { println("foo"); }
         for var i : Int=0; i< 42; i++ { println("foo"); } // missing braces
@@ -42,6 +44,9 @@ public class Test  :  Object
         }
         var objectList : Array<Object>;
         for obj : Object in objectList { println(obj); }
+
+        var foo : String;
+        if ( foo is String ) { }
     }
 
     class func test( a : Int, _ b : Object ) -> Float // static func two args

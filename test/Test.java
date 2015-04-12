@@ -11,6 +11,7 @@ public class Test extends Object
     public int a = 1, b = 2;
     float [] floatArray;
     Object [] objArray;
+    volatile int testVolatile;
 
     // Constructor (to convenience constructor)
     public Test() {
@@ -43,6 +44,9 @@ public class Test extends Object
         }
         List<Object> objectList;
         for( Object obj : objectList ) { println(obj); }
+
+        String foo;
+        if ( foo instanceof String ) { }
     }
 
     static float test( int a, Object b ) // static func two args

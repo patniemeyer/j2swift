@@ -34,8 +34,8 @@ public class J2SwiftListener extends Java8BaseListener
         typeMap.put("Float", "Float");
         typeMap.put("int", "Int");
         typeMap.put("Integer", "Int");
-        typeMap.put("long", "Int");
-        typeMap.put("Long", "Int");
+        typeMap.put("long", "Int64");
+        typeMap.put("Long", "Int64");
         typeMap.put("boolean", "Bool");
         typeMap.put("Boolean", "Bool");
         typeMap.put("Map", "Dictionary");
@@ -49,6 +49,7 @@ public class J2SwiftListener extends Java8BaseListener
     static Map<String,String> modifierMap = new HashMap<>();
     static {
         modifierMap.put("protected", "internal");
+        modifierMap.put("volatile", "/*volatile*/");
     }
 
     public J2SwiftListener( CommonTokenStream tokens )
@@ -409,6 +410,18 @@ public class J2SwiftListener extends Java8BaseListener
         replaceFirst( ctx, ctx.Identifier().getSymbol().getType(), mapType( ctx.Identifier().getText() ) );
     }
 
+    @Override
+    public void exitRelationalExpression( Java8Parser.RelationalExpressionContext ctx )
+    {
+        //:	shiftExpression
+        //    |	relationalExpression '<' shiftExpression
+        //    |	relationalExpression '>' shiftExpression
+        //    |	relationalExpression '<=' shiftExpression
+        //    |	relationalExpression '>=' shiftExpression
+        //    |	relationalExpression 'instanceof' referenceType
+        replaceFirst( ctx, Java8Lexer.INSTANCEOF, "is" );
+    }
+
     //
     // util
     //
@@ -418,6 +431,7 @@ public class J2SwiftListener extends Java8BaseListener
     }
     private void replaceFirst( ParserRuleContext ctx, int token, String str ) {
         List<TerminalNode> tokens = ctx.getTokens( token );
+        if ( tokens == null || tokens.isEmpty() ) { return; }
         rewriter.replace( tokens.get( 0 ).getSymbol().getTokenIndex(), str );
     }
 
