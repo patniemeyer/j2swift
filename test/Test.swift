@@ -34,7 +34,7 @@ public class Test  :  Object
         var floatArray : [Float];
         var objArray : [Object];
         var stringMap : Dictionary<String,String> = Dictionary<String,String>();
-        var stringList : Array<String> = Array<>();
+        var stringList : Array<String> = Array();
 
         for  var i : Int=0; i< 42; i++  { println("foo"); }
         for var i : Int=0; i< 42; i++ { println("foo"); } // missing braces

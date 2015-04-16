@@ -422,6 +422,17 @@ public class J2SwiftListener extends Java8BaseListener
         replaceFirst( ctx, Java8Lexer.INSTANCEOF, "is" );
     }
 
+    @Override
+    public void exitTypeArgumentsOrDiamond( Java8Parser.TypeArgumentsOrDiamondContext ctx )
+    {
+        //:	typeArguments
+        //        |	'<' '>'
+        if ( ctx.typeArguments() == null ) {
+            deleteFirst( ctx, Java8Lexer.GT );
+            deleteFirst( ctx, Java8Lexer.LT );
+        }
+    }
+
     //
     // util
     //
