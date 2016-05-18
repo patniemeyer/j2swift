@@ -4,5 +4,6 @@ workspace.xml
 lib
 codeStyleSettings.xml
 pullfromdesk.sh
+pullfromlaptop.sh
 test/a
 misc.xml
