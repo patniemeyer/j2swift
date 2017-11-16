@@ -43,7 +43,7 @@ The ANTLR grammar for Java is provided for reference but you do not have to buil
 J2Swift takes a filename or stding as input and outputs to stdout.
 
 Contributions + Links
-________
+--------
 
 [Runtime Converter (Online PHP to Java Conversions)](http://www.runtimeconverter.com)
 
