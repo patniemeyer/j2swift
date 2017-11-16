@@ -1,3 +1,5 @@
+package com.j2swift;
+
 import org.antlr.v4.runtime.*;
 import org.antlr.v4.runtime.tree.*;
 import java.io.FileInputStream;
@@ -13,6 +15,10 @@ public class J2Swift
 {
 	public static void main( String [] args ) throws Exception
     {
+        if (args.length != 1){
+        	System.out.println("Usage: gradle convertDirectory -Pfile={filepath}");
+        	System.exit(2);
+        }
         // This boilerplate largely from the ANTLR example
         String inputFile = null;
         if ( args.length>0 ) inputFile = args[0];

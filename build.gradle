@@ -1,0 +1,28 @@
+apply plugin: 'java'
+
+repositories {
+    jcenter()
+}
+
+task convertFile(type:JavaExec) {
+   main = "com.j2swift.J2Swift"
+   classpath = sourceSets.main.runtimeClasspath
+   if (project.hasProperty("file")){
+       args = [project.property('file')]
+   }
+}
+
+task convertDirectory(type:JavaExec) {
+   main = "com.j2swift.J2SwiftDirectory"
+   classpath = sourceSets.main.runtimeClasspath
+   if (project.hasProperty("dir")){
+       args = [project.property('dir')]
+   }
+}
+
+// In this section you declare the dependencies for your production and test code
+dependencies {
+	// https://mvnrepository.com/artifact/org.antlr/antlr4
+	compile group: 'org.antlr', name: 'antlr4', version: '4.5'
+
+}

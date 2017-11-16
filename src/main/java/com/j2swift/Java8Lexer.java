@@ -1,3 +1,5 @@
+package com.j2swift;
+
 // Generated from Java8.g4 by ANTLR 4.5
 import org.antlr.v4.runtime.Lexer;
 import org.antlr.v4.runtime.CharStream;
