@@ -30,16 +30,18 @@ A few things it could do in the future
 - Static method invocations should be qualified.
 
 
-Building
+Usage
 --------
+gradle convertDirectory -Pdir={directory}
+gradle convertDirectory -Pfile={filepath}
 
-It's just a handful of Java files in src.  The only requirement is the ANTLR runtime:
-
-  http://www.antlr.org/download/antlr-4.5-complete.jar
-or
-  http://www.antlr.org/download/antlr-runtime-4.5.jar
+Notes
+________
 
 The ANTLR grammar for Java is provided for reference but you do not have to build the parser to make changes.  All updates really happen in the J2SwiftListener class.
 
 J2Swift takes a filename or stding as input and outputs to stdout.
+
+Contributions
+[Runtime Converter (Online PHP to Java Conversions)](http://www.runtimeconverter.com)
 
