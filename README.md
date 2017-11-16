@@ -33,6 +33,7 @@ A few things it could do in the future
 Usage
 --------
 gradle convertDirectory -Pdir={directory}
+
 gradle convertDirectory -Pfile={filepath}
 
 Notes
