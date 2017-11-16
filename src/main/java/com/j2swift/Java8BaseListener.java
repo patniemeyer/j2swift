@@ -1,3 +1,5 @@
+package com.j2swift;
+
 // Generated from Java8.g4 by ANTLR 4.5
 
 import org.antlr.v4.runtime.ParserRuleContext;
@@ -15,6 +17,7 @@ public class Java8BaseListener implements Java8Listener {
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
+
 	 */
 	@Override public void enterLiteral(Java8Parser.LiteralContext ctx) { }
 	/**

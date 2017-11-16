@@ -7,3 +7,9 @@ pullfromdesk.sh
 pullfromlaptop.sh
 test/a
 misc.xml
+.gradle
+gradlew
+gradlew.bat
+build/
+gradle/
+settings.gradle
