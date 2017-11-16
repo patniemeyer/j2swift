@@ -36,7 +36,7 @@ gradle convertDirectory -Pdir={directory}
 gradle convertDirectory -Pfile={filepath}
 
 Notes
-________
+--------
 
 The ANTLR grammar for Java is provided for reference but you do not have to build the parser to make changes.  All updates really happen in the J2SwiftListener class.
 
