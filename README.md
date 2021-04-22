@@ -43,3 +43,17 @@ The ANTLR grammar for Java is provided for reference but you do not have to buil
 
 J2Swift takes a filename or stding as input and outputs to stdout.
 
+Running
+-------
+
+Converting a single file, drops it in the same folder:
+
+```shell
+./j2swift.sh test/Test.java
+```
+
+Converting a java src directory, drops it in target folder:
+
+```shell
+./j2swift.sh test swift
+```
